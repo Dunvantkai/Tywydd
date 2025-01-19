@@ -1,6 +1,6 @@
 import tkinter as tk
 import requests
-API_KEY="a90edca8f5371093d13956fe80ba21cc"
+API_KEY="a90edca8f5371093d13956fe80ba21cc" #shhhh i know this is stupid 
 BaseURL="http://api.openweathermap.org/data/2.5/weather"
 
 def GetWether(CityName):
