@@ -21,6 +21,7 @@ def GetCityCountry():
     ServerResponse = GetWether(Town + "," + Country)
     PrintWether(ServerResponse)
 
+
 root = tk.Tk()
 root.title('Tywydd')
 
@@ -29,6 +30,7 @@ pTownEntry = tk.Entry(root)
 pCountryLabel = tk.Label(root, text="Country:")
 pCountryEntry = tk.Entry(root)
 pSearch = tk.Button(root, text="Search", command=GetCityCountry)
+pServerLabel= tk.Message(root, text="Server API Data" bg="lightgray", fg="black")
 pSeverTxt = tk.Message(root, bg="lightgray", fg="black")
 
 pTownLabel.grid(row=0, column=0, padx=60, pady=10)
